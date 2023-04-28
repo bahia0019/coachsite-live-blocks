@@ -1,0 +1,49 @@
+.csl-block-hero {
+	color: #000;
+	margin: 0 auto;
+	position: relative;
+	line-height: 0;
+	&:hover .button,
+	&:hover button {
+		opacity: 0.65;
+	}
+	button,
+	.button {
+		position: absolute;
+		z-index: 100;
+		padding: 0 10px;
+	}
+	.bg-image-button {
+		right: 1em;
+		top: 1em;
+		opacity: 0;
+		z-index: 100;
+		transition: 1s;
+		&:hover {
+			opacity: 1;
+		}
+	}
+	.logo-button {
+		left: 1em;
+		top: 1em;
+		opacity: 0.9;
+		z-index: 20;
+		&:hover {
+			opacity: 1;
+		}
+	}
+	.logo {
+		position: absolute;
+		height: auto;
+		z-index: 20;
+	}
+	.hero-title {
+		position: absolute;
+		z-index: 100;
+		color: #fff;
+		background-color: #000;
+	}
+	.hero-overlay {
+		z-index: 10;
+	}
+}

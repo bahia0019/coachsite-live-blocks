@@ -1,0 +1,22 @@
+.wp-block-hero {
+	margin: 0 auto;
+	position: relative;
+	line-height: 0;
+	max-height: 100vh;
+	.bg-image {
+	}
+
+	.logo {
+		position: absolute;
+		height: auto;
+		z-index: 20;
+	}
+	.hero-title {
+		position: absolute;
+		z-index: 20;
+		left: 1em;
+	}
+	.hero-overlay {
+		z-index: 10;
+	}
+}
